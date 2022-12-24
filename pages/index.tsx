@@ -11,9 +11,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>[介绍]</p>
-        <p>[我们的团队成员来自中国，是一批九零后]</p>
+      <section className="text-2xl mb-20">
+        <p className='text-red-600 py-4'>介绍</p>
+        <p>我们的团队成员来自中国，是一批九零后</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>记事</h2>
