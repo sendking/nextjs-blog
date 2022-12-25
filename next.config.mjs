@@ -2,7 +2,7 @@
 
 import WindiCSSWebpackPlugin from 'windicss-webpack-plugin'
 
-export default {
+const config = {
   reactStrictMode: true,
   swcMinify: true,
   webpack(config) {
@@ -10,3 +10,5 @@ export default {
     return config
   },
 }
+
+export default config
